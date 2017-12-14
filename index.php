@@ -6,7 +6,7 @@ require 'vendor/autoload.php';
 
 $app = new \Slim\App;
 
-$app->get('/test', function(){
+$app->get('/testt', function(){
     echo 'ทดสอบ'; });
 
 $app->get('/user/register',function(){
