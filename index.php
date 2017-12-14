@@ -6,11 +6,9 @@ require 'vendor/autoload.php';
 
 $app = new \Slim\App;
 
-$app->get('/testt', function(){
-    echo 'ทดสอบ'; });
+require 'routes/hello.php';
+require 'routes/user.php';
 
-$app->get('/user/register',function(){
-     echo' /user/register'; });
 
 $app->get('/category',function(){
      echo' /category'; });
