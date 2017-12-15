@@ -1,6 +1,6 @@
 <?php
 
-$app->get('/user/register',function(){
-    echo' /user/register'; });
+$app->get('/routes/register',function(){
+    echo'register'; });
 
 ?>
